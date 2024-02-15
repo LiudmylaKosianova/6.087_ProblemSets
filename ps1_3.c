@@ -5,7 +5,8 @@
 int main(void){
 
     const char msg[] = MSG1;
-    
+    //puts(msg);
+    printf("%s\n", msg);
 
     return 0;
 }
