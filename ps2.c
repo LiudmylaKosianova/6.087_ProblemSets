@@ -73,12 +73,11 @@ Consider int val=0xCAFE; Write expressions using bitwise operators that do the f
         printf("At least three of the last four digits are set to ones\n");
     }
 
-    //reverse the bits order
-    //lets find the number of bits in our int
-    int bitsN = (int)sizeof(val)*8;
-    printf(" bitsN is %d\n", bitsN);
+    //reverse the byts order   
 
-    
+    val = ((0xFF & val) << 8) | (val>>8);
+
+
 
 
     
