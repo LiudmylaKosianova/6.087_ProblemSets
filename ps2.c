@@ -51,7 +51,15 @@ Testing whether a given character variable c is
     char g = 'a'; //g>=97 && g<=122
     char hh = 0; // hh>=48 && hh<=57
     char h = '\n'; // h == 32 || h==9 || h==10
+/*
+Consider int val=0xCAFE; Write expressions using bitwise operators that do the following:
+• test if atleast three of last four bits (LSB) are on
+• reverse the byte order (i.e., produce val=0xFECA)
+• rotate fourbits (i.e., produce val=0xECAF)
+*/
 
+    int val = 0xCAFE;
+    
     
 
 
