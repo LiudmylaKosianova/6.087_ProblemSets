@@ -39,7 +39,20 @@ int main(){
     printf("Minimum value of float is %E\n", FLT_MIN);
     printf("Maximum value of float is %E\n", FLT_MAX);
 
+/*
+Testing whether a given character variable c is
+• lower case letter
+• upper case letter
+• digit
+• white space (includes space,tab,new line)
+*/
 
+    char f = 'A'; //f>=65 && f<=90
+    char g = 'a'; //g>=97 && g<=122
+    char hh = 0; // hh>=48 && hh<=57
+    char h = '\n'; // h == 32 || h==9 || h==10
+
+    
 
 
 
