@@ -27,17 +27,17 @@ int main(){
     unsigned int c = 0;
     printf("Size of unsigned int is %zu\n", sizeof(c));
     printf("Minimum value of unsigned int is %d\n", 0);
-    printf("Maximum value of unsigned int is %d\n", UINT_MAX);
+    printf("Maximum value of unsigned int is %u\n", UINT_MAX);
 
     unsigned long d = 0;
     printf("Size of unsigned long is %zu\n", sizeof(d));
     printf("Minimum value of unsigned long is %d\n", 0);
-    printf("Maximum value of unsigned long is %d\n", FLT_MAX);
+    printf("Maximum value of unsigned long is %lu\n", ULONG_MAX);
 
     float e = 0;
     printf("Size of float is %zu\n", sizeof(e));
-    printf("Minimum value of float is %d\n", FLT_MIN);
-    printf("Maximum value of float is %d\n", FLT_MAX);
+    printf("Minimum value of float is %E\n", FLT_MIN);
+    printf("Maximum value of float is %E\n", FLT_MAX);
 
 
 
