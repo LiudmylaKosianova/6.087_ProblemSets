@@ -59,7 +59,22 @@ Consider int val=0xCAFE; Write expressions using bitwise operators that do the f
 */
 
     int val = 0xCAFE;
+    //four masks to check the last four digits
+    int fourOnes = 0b1111;
+    int threeOnes = 0b0111;
+    int twoOnes = 0b1011;
+    int oneOne = 0b1110;
+    //let's compare them with AND bitwise operator
+    int answer = val&fourOnes;
+    if(answer == fourOnes){
+        printf("val has four last digits set to ones");
+    }else if(answer == threeOnes || answer == twoOnes || answer == oneOne){
+        printf("at least three of the last four digits are set to ones");
+    }
     
+
+
+
     
 
 
