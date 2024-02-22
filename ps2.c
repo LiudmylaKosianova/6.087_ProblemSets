@@ -72,6 +72,15 @@ Consider int val=0xCAFE; Write expressions using bitwise operators that do the f
     }else if(answer == threeOnes || answer == twoOnes || answer == oneOne || answer == lastOne){
         printf("At least three of the last four digits are set to ones\n");
     }
+
+    //reverse the bits order
+    //lets find the number of bits in our int
+    int bitsN = (int)sizeof(val)*8;
+    printf(" bitsN is %d\n", bitsN);
+
+    
+
+
     
 
 
