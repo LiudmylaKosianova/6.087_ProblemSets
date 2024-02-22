@@ -64,12 +64,13 @@ Consider int val=0xCAFE; Write expressions using bitwise operators that do the f
     int threeOnes = 0b0111;
     int twoOnes = 0b1011;
     int oneOne = 0b1110;
+    int lastOne = 0b1101;
     //let's compare them with AND bitwise operator
     int answer = val&fourOnes;
     if(answer == fourOnes){
-        printf("val has four last digits set to ones");
-    }else if(answer == threeOnes || answer == twoOnes || answer == oneOne){
-        printf("at least three of the last four digits are set to ones");
+        printf("Val has four last digits set to ones\n");
+    }else if(answer == threeOnes || answer == twoOnes || answer == oneOne || answer == lastOne){
+        printf("At least three of the last four digits are set to ones\n");
     }
     
 
